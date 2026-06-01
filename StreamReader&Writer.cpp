@@ -16,4 +16,9 @@ int main()
         if (baris == "q") break;//menulis and memasukkan nilai varialbel baris kedlm file
         outfile << baris << endl;
     }
+    outfile.close();//close jika penulisan tlh selesai
+
+    ifstream infile;
+    infile.open("contohfile.txt");
+    
 }
