@@ -20,5 +20,4 @@ int main()
     }
     cout << "baris program terakir" << endl; //penanda 2
     return 0;
-    
 }
