@@ -33,5 +33,7 @@ int main()
         }//perulangan untuk munculin setiap baris
         infile.close();//menutup jika selesai
     }
+    else cout << "unable to open file";
+    return 0;
 
 }
