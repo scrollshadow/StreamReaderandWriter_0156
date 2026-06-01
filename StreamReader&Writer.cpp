@@ -26,7 +26,8 @@ int main()
         while (getline(infile, baris)) {
             cout << baris << endl;
         }//perulangan untuk munculin setiap baris
+        infile.close();//menutup jika selesai
     }
-    infile.close();//menutup jika selesai
-
+    else cout << "unable to open file";
+    return 0;
 }
