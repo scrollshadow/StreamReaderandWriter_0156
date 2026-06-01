@@ -6,5 +6,7 @@ using namespace std;
 int main()
 {
     string baris, Namafile;
+    cout << "Masukan nama file : ";
+    cin >> Namafile:
 
 }
