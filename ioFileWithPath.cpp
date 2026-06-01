@@ -20,5 +20,18 @@ int main()
         if (baris == "q") break;//menulis and memasukkan nilai varialbel baris kedlm file
         outfile << baris << endl;
     }
+    outfile.close();
+
+    ifstream infile;//buka dlm mode baca
+    infile.open(Namafile + ".txt", ios::in);
+    cout << endl << ">= Membuka dan membaca file" << endl;
+
+    if (infile.is_open())
+    {
+        while (getline(infile, baris)) {
+            cout << baris << endl;
+        }//perulangan untuk munculin setiap baris
+        infile.close();//menutup jika selesai
+    }
 
 }
